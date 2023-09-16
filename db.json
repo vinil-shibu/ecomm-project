@@ -20,7 +20,7 @@
     },
     {
       "name": "peter",
-      "password": "abc2123",
+      "password": "abc@123",
       "email": "peter@test.com",
       "id": 4
     }

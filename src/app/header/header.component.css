@@ -42,3 +42,7 @@
     border-left: 0;
     height: 39px ;
 }
+h1 a{
+    color: blueviolet;
+    text-decoration: none;
+}
