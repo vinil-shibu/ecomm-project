@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./seller-add-product.component.css']
 })
 export class SellerAddProductComponent {
-
+  submit(data:object){
+    console.warn(data);
+  }
 }
