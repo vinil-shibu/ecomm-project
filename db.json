@@ -28,19 +28,20 @@
   "products": [
     {
       "name": "Picel 8A",
-      "Price": "45999",
+      "price": "45999",
       "category": "Mobiles",
       "color": "Still black",
       "image": "https://fdn2.mobgsm.com/vv/bigpic/google-pixel-7a.jpg",
-      "description": "Google Pixel 8A (Still, 128 GB) (12 GB RAM)",
+      "description": "Google Pixel 8A (Still, 128 GB) (8 GB RAM)",
       "id": 1
     },
     {
-      "name": "Google Pixel 7 (Hazel, 128 GB) (12 GB RAM)",
-      "Price": "49999",
+      "name": "Pixel 7",
+      "price": "49999",
       "category": "Mobiles",
       "color": "Just Black",
       "image": "https://fdn2.mobgsm.com/vv/bigpic/google-pixel-7a.jpg",
+      "description":"Google Pixel 7 (Just, 128 GB) (8 GB RAM)",
       "id": 2
     }
   ]
