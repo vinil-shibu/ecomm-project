@@ -31,7 +31,7 @@
       "price": "45999",
       "category": "Mobiles",
       "color": "Still black",
-      "image": "https://fdn2.mobgsm.com/vv/bigpic/google-pixel-7a.jpg",
+      "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
       "description": "Google Pixel 8A (Still, 128 GB) (8 GB RAM)",
       "id": 1
     },
@@ -40,9 +40,18 @@
       "price": "49999",
       "category": "Mobiles",
       "color": "Just Black",
-      "image": "https://fdn2.mobgsm.com/vv/bigpic/google-pixel-7a.jpg",
+      "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
       "description": "Google Pixel 7 (Just, 128 GB) (8 GB RAM)",
       "id": 2
+    },
+    {
+      "name": "Razor Laptop",
+      "price": "359000",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "8th Gen Intel i7-8750H 6, NVIDIA RTX 2080, 16GB RAM, 512GB SSD)",
+      "image": "https://cdn1.smartprix.com/rx-iIRBmvMYk-w1200-h1200/razer-blade-15-gamin.webp",
+      "id": 3
     }
   ]
 }
