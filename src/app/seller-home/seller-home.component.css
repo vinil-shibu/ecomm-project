@@ -15,6 +15,72 @@ img{
     height: 100px;
 }
 .del-icon{
-    padding-left: 30%;
     cursor: pointer;
 }
+.update-icon{
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+a,span{
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 200%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+  .tooltip1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 105%;
+  }
+  
+  .tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+  }
