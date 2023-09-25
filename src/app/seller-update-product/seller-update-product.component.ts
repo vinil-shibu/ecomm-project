@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class SellerUpdateProductComponent {
 
+
+  submit(data:any){
+
+  }
 }
