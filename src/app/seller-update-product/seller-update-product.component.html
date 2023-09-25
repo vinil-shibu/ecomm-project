@@ -7,6 +7,7 @@
         name="name"
         type="text"
         placeholder="Enter Product Name"
+        ngModel="{{productData?.name}}"
       />
       <input
         class="form-input"
@@ -14,6 +15,7 @@
         name="price"
         type="text"
         placeholder="Enter Product Price"
+        ngModel="{{productData?.price}}"
       />
       <input
         class="form-input"
@@ -21,6 +23,7 @@
         name="category"
         type="text"
         placeholder="Enter Product Category"
+        ngModel="{{productData?.category}}"
       />
       <input
         class="form-input"
@@ -28,6 +31,7 @@
         name="color"
         type="text"
         placeholder="Enter Product Color"
+        ngModel="{{productData?.color}}"
       />
       <textarea 
         class="form-input"
@@ -35,6 +39,7 @@
         name="description"
         type="text"
         placeholder="Enter Product Description"
+        ngModel="{{productData?.description}}"
       ></textarea>
       <input
         class="form-input"
@@ -42,6 +47,7 @@
         name="image"
         type="text"
         placeholder="Enter Product Image URL"
+        ngModel="{{productData?.image}}"
       />
       <button class="form-button">Update Product</button>
     </form>
