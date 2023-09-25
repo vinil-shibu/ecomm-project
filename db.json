@@ -31,17 +31,17 @@
       "price": "45999",
       "category": "Mobiles",
       "color": "Still black",
-      "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
       "description": "Google Pixel 8A (Still, 128 GB) (8 GB RAM)",
+      "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
       "id": 1
     },
     {
       "name": "Pixel 7",
-      "price": "49999",
+      "price": "48999",
       "category": "Mobiles",
       "color": "Just Black",
+      "description": "Google Pixel 7 (Just Black, 128 GB) (8 GB RAM)",
       "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
-      "description": "Google Pixel 7 (Just, 128 GB) (8 GB RAM)",
       "id": 2
     },
     {
