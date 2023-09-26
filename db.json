@@ -27,21 +27,21 @@
   ],
   "products": [
     {
-      "name": "Picel 8A",
-      "price": "45999",
+      "name": "Ipgone 15 Plus",
+      "price": "98999",
       "category": "Mobiles",
-      "color": "Still black",
-      "description": "Google Pixel 8A (Still, 128 GB) (8 GB RAM)",
-      "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
+      "color": "Light Pink",
+      "description": "Apple iPhone 15 Plus (256 GB) Light pink",
+      "image": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
       "id": 1
     },
     {
-      "name": "Pixel 7",
-      "price": "48999",
+      "name": "Pixel 7 Pro",
+      "price": "78999",
       "category": "Mobiles",
       "color": "Just Black",
-      "description": "Google Pixel 7 (Just Black, 128 GB) (8 GB RAM)",
-      "image": "https://www.91-img.com/pictures/151086-v2-google-pixel-7a-mobile-phone-large-1.jpg?tr=q-80",
+      "description": "Google Pixel 7 Pro (Just Black, 128 GB) (12 GB RAM)",
+      "image": "https://m-cdn.phonearena.com/images/reviews/246023-image/BK6A0609.jpg",
       "id": 2
     },
     {
