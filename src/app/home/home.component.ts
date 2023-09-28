@@ -10,7 +10,7 @@ import { product } from 'src/data-type';
 export class HomeComponent implements OnInit{
 
   popularProduct:undefined|product[];
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  trendyProducts:undefined|product[];
 
   constructor(private product:ProductService){}
   ngOnInit(): void {
@@ -18,6 +18,10 @@ export class HomeComponent implements OnInit{
       console.warn(data);
       this.popularProduct=data;
     });
+
+    this.product.trendyProducts().subscribe((data)=>{
+      this.trendyProducts=data;
+    })
   }
       
 }

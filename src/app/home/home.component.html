@@ -13,18 +13,17 @@
 <div class="product-list-wrapper">
 	<h1>Trendy Products</h1>
 	<div class="row">
-		<div class="col-sm-3">
+		<div class="col-sm-3" *ngFor="let item of trendyProducts">
 			<div class="product-item">
-				<img src="https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg"
-					alt="">
-
+				<img src="{{item.image}}"
+					alt="Trendy Product">
 				<div class="product-details">
-					<h6 class="name-head">Apple Product</h6>
+					<h6 class="name-head">{{item.name}}</h6>
 					<div class="product-price">
-						<h6>Price: 99999</h6>
+						<h6>Price: {{item.price}}</h6>
 					</div>
 					<div class="product-color">
-						<h6>Color: Blue</h6>
+						<h6>Color: {{item.color}}</h6>
 					</div>
 				</div>
 				<div class="product-footer">
@@ -33,65 +32,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg"
-					alt="">
-
-				<div class="product-details">
-					<h6 class="name-head">Apple Product</h6>
-					<div class="product-price">
-						<h6>Price: 99999</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: Blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg"
-					alt="">
-
-				<div class="product-details">
-					<h6 class="name-head">Apple Product</h6>
-					<div class="product-price">
-						<h6>Price: 99999</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: Blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="product-item">
-				<img src="https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg"
-					alt="">
-
-				<div class="product-details">
-					<h6 class="name-head">Apple Product</h6>
-					<div class="product-price">
-						<h6>Price: 99999</h6>
-					</div>
-					<div class="product-color">
-						<h6>Color: Blue</h6>
-					</div>
-				</div>
-				<div class="product-footer">
-					<a href="">View Details</a>
-					<a href="">Add to Cart</a>
-				</div>
-			</div>
-		</div>
+		
 	</div>
 </div>

@@ -52,6 +52,42 @@
       "description": "8th Gen Intel i7-8750H 6, NVIDIA RTX 2080, 16GB RAM, 512GB SSD)",
       "image": "https://cdn1.smartprix.com/rx-iIRBmvMYk-w1200-h1200/razer-blade-15-gamin.webp",
       "id": 3
+    },
+    {
+      "name": "Nike AIR",
+      "price": "12799",
+      "category": "Shoes",
+      "color": "Photon Dust",
+      "description": "Nike Air Flight Lite Mid | Style: FJ2949-001",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOofT77I5Aph8NzbMGtH-V_5bbYtsZWQNtQ&usqp=CAU",
+      "id": 4
+    },
+    {
+      "name": "Men Hoodie",
+      "price": "2299",
+      "category": "Men Clothing",
+      "color": "Black",
+      "description": "Hoodie in cotton sweatshirt fabric with a soft brushed inside. ",
+      "image": "https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F30%2Fdb%2F30db48f22fcf2c812377c13e5f8da85971d41221.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]",
+      "id": 5
+    },
+    {
+      "name": "Crocs Clogs",
+      "price": "3099",
+      "category": "Shoes",
+      "color": "Grey",
+      "description": "A pair that elevates the sleek, fashion-athletic spirit of the originals to another level.",
+      "image": "https://www.crocs.in/media/catalog/product/2/0/205089_0gx_alt140.jpeg?auto=webp&format=pjpg&width=1280&height=1600&fit=cover",
+      "id": 6
+    },
+    {
+      "name": "MacBook Pro",
+      "price": "309900",
+      "category": "Laptop",
+      "color": "Space Grey",
+      "description": "Apple M2 Max with 12‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=2000&hei=1211&fmt=jpeg&qlt=95&.v=1671304673229",
+      "id": 7
     }
   ]
 }
