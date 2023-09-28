@@ -16,7 +16,7 @@ img{
 }
 .del-icon{
     cursor: pointer;
-    padding-right: 10px;
+    padding-right: 20px;
 }
 .update-icon{
     cursor: pointer;
@@ -27,8 +27,25 @@ a,span{
   text-decoration: none;
 }
 
+.my-custom-class {
+  background: aliceblue;
+  font-size: 125%;
+}
+.my-custom-class .arrow::after {
+  border-top-color: aliceblue;
+}
 
-.tooltip {
+
+
+
+
+
+
+
+
+
+
+/* .tooltip {
   position: relative;
   display: inline-block;
 }
@@ -43,7 +60,7 @@ a,span{
   padding: 5px 0;
   
   /* Position the tooltip */
-  position: absolute;
+  /* position: absolute;
   z-index: 1;
   bottom: 100%;
   left: 50%;
@@ -52,4 +69,4 @@ a,span{
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
-}
+} */ 

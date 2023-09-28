@@ -22,18 +22,20 @@
                 <td>{{item.color}}</td>
                 <td>{{item.category}}</td>
                 <td>{{item.description}}</td>
-                <td><div class="tooltip">
+                <td>
+                    <!-- <div class="tooltip">
                     <a class="del-icon"><fa-icon class="fa-sm" (click)="deleteProduct(item.id)"[icon]="icon"></fa-icon></a>
                     <span class="tooltiptext">Delete</span>
                     
-                </div>
-                <div class="tooltip">
+                </div> -->
+                <!-- <div class="tooltip">
                     <a class="update-icon">
                         <fa-icon class=" fa-2xl" routerLink="/seller-update-product/{{item.id}}" class=""[icon]="deleteIcon"></fa-icon>
-                        <span class="tooltiptext">Update</span>
+                        <span class="tooltiptext">Update</span> 
                     </a>
-                </div>
-                    
+                </div> -->
+                <a class="del-icon"><fa-icon class="fa-sm" (click)="deleteProduct(item.id)"[icon]="icon"></fa-icon></a>
+                <fa-icon class=" fa-2xl" ngbPopover="Update?" popoverClass="my-custom-class" routerLink="/seller-update-product/{{item.id}}" class=""[icon]="deleteIcon"></fa-icon>
                     
             </tr>
         </tbody>

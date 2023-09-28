@@ -7,6 +7,7 @@ import { faTrashCan,faEdit } from '@fortawesome/free-solid-svg-icons';
   selector: 'app-seller-home',
   templateUrl: './seller-home.component.html',
   styleUrls: ['./seller-home.component.css']
+  
 })
 export class SellerHomeComponent {
   productMessage: undefined | string;
@@ -40,3 +41,4 @@ export class SellerHomeComponent {
   }
 
 }
+
