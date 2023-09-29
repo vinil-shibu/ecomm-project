@@ -38,9 +38,10 @@
     <form
       #sellerLogin="ngForm"
       (ngSubmit)="login(sellerLogin.value)"
-      class="common-form"
+      class="common-form" autocomplete="off"
     >
       <input
+        autocomplete="false"
         class="form-input"
         ngModel
         name="email"
