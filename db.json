@@ -30,7 +30,7 @@
       "name": "Iphone 15 Plus",
       "price": "98999",
       "category": "Mobiles",
-      "color": "Light Pink",
+      "color": "Pink",
       "description": "Apple iPhone 15 Plus (256 GB) Light pink",
       "image": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
       "id": 1
@@ -39,7 +39,7 @@
       "name": "Pixel 7 Pro",
       "price": "78999",
       "category": "Mobiles",
-      "color": "Just Black",
+      "color": "Black",
       "description": "Google Pixel 7 Pro (Just Black, 128 GB) (12 GB RAM)",
       "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=70",
       "id": 2
@@ -57,7 +57,7 @@
       "name": "Nike AIR",
       "price": "12799",
       "category": "Shoes",
-      "color": "Photon Dust",
+      "color": "Gray",
       "description": "Nike Air Flight Lite Mid | Style: FJ2949-001",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOofT77I5Aph8NzbMGtH-V_5bbYtsZWQNtQ&usqp=CAU",
       "id": 4
@@ -75,7 +75,7 @@
       "name": "Crocs Clogs",
       "price": "3099",
       "category": "Shoes",
-      "color": "Grey",
+      "color": "Gray",
       "description": "A pair that elevates the sleek, fashion-athletic spirit of the originals to another level.",
       "image": "https://www.crocs.in/media/catalog/product/2/0/205089_0gx_alt140.jpeg?auto=webp&format=pjpg&width=1280&height=1600&fit=cover",
       "id": 6
@@ -84,7 +84,7 @@
       "name": "MacBook Pro",
       "price": "309900",
       "category": "Laptop",
-      "color": "Space Grey",
+      "color": "Gray",
       "description": "Apple M2 Max with 12‑core CPU, 30‑core GPU and 16‑core Neural Engine",
       "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=2000&hei=1211&fmt=jpeg&qlt=95&.v=1671304673229",
       "id": 7
