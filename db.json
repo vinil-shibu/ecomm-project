@@ -89,5 +89,13 @@
       "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=2000&hei=1211&fmt=jpeg&qlt=95&.v=1671304673229",
       "id": 7
     }
+  ],
+  "users": [
+    {
+      "name": "Vinil",
+      "email": "vinil@user.com",
+      "password": "abc@123",
+      "id": 1
+    }
   ]
 }
