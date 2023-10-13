@@ -13,10 +13,16 @@ export class UserService {
     this.http.post("http://localhost:3000/users",user,{observe:"response"}).subscribe((result)=>{
       console.warn(result);
       if(result){
-        sessionStorage.setItem('user',JSON.stringify(result.body));
-        // localStorage.setItem('user',JSON.stringify(result.body));
+        localStorage.setItem('user',JSON.stringify(result.body));
+        console.warn(result.body);
         this.router.navigate(['/'])
       }
     })
+  }
+
+  userAuthReload(){
+    if(localStorage.getItem('user')){
+      this.router.navigate(['/']);
+    }
   }
 }
