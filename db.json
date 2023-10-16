@@ -96,6 +96,12 @@
       "email": "vinil@gmail.com",
       "password": "abc@123",
       "id": 1
+    },
+    {
+      "name": "test ",
+      "email": "test@test.com",
+      "password": "abc@123",
+      "id": 2
     }
   ]
 }

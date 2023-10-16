@@ -19,9 +19,9 @@
   </ul>
   <ul *ngSwitchCase="'user'">
     <li><a routerLink="seller-auth">Seller</a></li>
-    <li><a routerLink="/">Home</a></li>
-    <li><a style="cursor: not-allowed;">{{userName|titlecase}}</a></li>
+    <li><a routerLink="">Home</a></li>
     <li><a style="cursor: pointer;" (click)="userLogOut()">LogOut</a></li>
+    <li><a style="cursor: not-allowed;">{{userName|titlecase}}</a></li>
     <li><a href="#">Cart(0)</a></li>
   </ul>
   <ul *ngSwitchCase="'seller'">

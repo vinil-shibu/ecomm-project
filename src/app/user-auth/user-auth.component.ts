@@ -22,7 +22,7 @@ export class UserAuthComponent implements OnInit {
   }
 
   login(data: Login) {
-    console.warn(data);
+    this.user.userLogin(data);
   }
 
   openSignUp() {
