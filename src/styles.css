@@ -8,7 +8,6 @@ body{
 }
 
 .common-form{
-    text-align: center;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -42,4 +41,15 @@ body{
 .carousel-control-prev-icon, .carousel-control-next-icon  {
     background-color: black;
     border-radius: 5px;
+}
+
+.invalid-input{
+    color: red;
+    font-size: 15px;
+    margin-top: -20px;
+    text-align: left;
+}
+
+button:disabled{
+    cursor: not-allowed;
 }
