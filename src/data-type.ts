@@ -9,6 +9,7 @@ export interface Login{
 }
 
 export interface product{
+    quantity:undefined | number
     name:string,
     price:number,
     category:string,
