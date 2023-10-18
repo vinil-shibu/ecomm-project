@@ -44,13 +44,12 @@
 
 .product-footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 10px;
     
 
 }
 
 a{
-    color: #fff;
     text-decoration: none;
 }

@@ -1,11 +1,12 @@
 import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 import { product } from 'src/data-type';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
+  cartData = new EventEmitter<product[] | []>();
 
   constructor(private http: HttpClient) { }
 
@@ -25,32 +26,43 @@ export class ProductService {
     return this.http.get<product>(`http://localhost:3000/products/${id}`);
   }
 
-  updateProduct(product:product){
-    return this.http.put<product>(`http://localhost:3000/products/${product.id}`,product);
+  updateProduct(product: product) {
+    return this.http.put<product>(`http://localhost:3000/products/${product.id}`, product);
   }
 
-  popularProducts(){
+  popularProducts() {
     return this.http.get<product[]>('http://localhost:3000/products?_limit=3');
   }
 
-  trendyProducts(){
+  trendyProducts() {
     return this.http.get<product[]>('http://localhost:3000/products?_limit=4');
   }
 
-  searchProducts(query:string){
+  searchProducts(query: string) {
     return this.http.get<product[]>(`http://localhost:3000/products?q=${query}`);
   }
 
-  localAddToCart(data:product){
-    let cartData=[];
+  localAddToCart(data: product) {
+    let cartData = [];
     let localCart = localStorage.getItem('localCart')
-    if(!localCart){
-      localStorage.setItem('localCart',JSON.stringify([data]))
-    }else{
-      cartData=JSON.parse(localCart);
+    if (!localCart) {
+      localStorage.setItem('localCart', JSON.stringify([data]))
+    } else {
+      cartData = JSON.parse(localCart);
       cartData.push(data);
-      localStorage.setItem('localCart',JSON.stringify(cartData));
+      localStorage.setItem('localCart', JSON.stringify(cartData));
     }
+    this.cartData.emit(cartData);
   }
 
+  removeItemFromCart(productId: number) {
+    let cartData = localStorage.getItem('localCart')
+    if (cartData) {
+      let items: product[] = JSON.parse(cartData);
+      items = items.filter((item: product) => productId !== item.id);
+      localStorage.setItem('localCart', JSON.stringify(items));
+      this.cartData.emit(items);
+    }
+  }
 }
+
