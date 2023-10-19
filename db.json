@@ -103,5 +103,19 @@
       "password": "abc@123",
       "id": 2
     }
+  ],
+  "cart": [
+    {
+      "name": "Pixel 7 Pro",
+      "price": "78999",
+      "category": "Mobiles",
+      "color": "Black",
+      "description": "Google Pixel 7 Pro (Just Black, 128 GB) (12 GB RAM)",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=70",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 2,
+      "id": 1
+    }
   ]
 }
