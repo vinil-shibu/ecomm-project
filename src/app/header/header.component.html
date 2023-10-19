@@ -1,6 +1,6 @@
 <nav class="nav">
   <h1><a routerLink="/">E-Comm</a></h1>
-  <div *ngIf='menuType==="default"' class="nav-search">
+  <div class="nav-search">
     <input type="text" (keyup)="searchProduct($event)" #searchInput (blur)="hideSearch()" placeholder="Search for Products" />
     <button (click)="submitSearch(searchInput.value)">Search</button>
     <ul class="suggested-result" *ngIf="searchResult">
