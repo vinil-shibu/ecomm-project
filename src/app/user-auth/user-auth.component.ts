@@ -31,7 +31,7 @@ export class UserAuthComponent implements OnInit {
         this.authError="Please enter valid user details"
       }
       else{
-        this.localCartToRemoteCart()
+        this.localCartToRemoteCart();
       }
     })
   }
@@ -45,12 +45,12 @@ export class UserAuthComponent implements OnInit {
   }
 
   localCartToRemoteCart(){
-    let data = localStorage.getItem('localCart');
+    let data = localStorage.getItem('localCart'); 
+    let user = localStorage.getItem('user');
+    let userId = user && JSON.parse(user).id;
+    
     if(data){
       let cartDataList:product[] = JSON.parse(data);
-      let user = localStorage.getItem('user');
-      let userId = user && JSON.parse(user).id;console.warn('123');
-      
       
       cartDataList.forEach((product:product,index) => {
         let cartData:cart={
@@ -62,14 +62,21 @@ export class UserAuthComponent implements OnInit {
         setTimeout(() => {
           this.product.addToCart(cartData).subscribe((result)=>{
             if(result){
-              // console.warn("item stored in DB");
+              console.warn("Item Added");
             }
           });
-          if(cartDataList.length===index+1){
-            localStorage.removeItem('localCart')
-          }
-        }, 500);
+        }, 1000);
+        if(cartDataList.length===index+1){
+          localStorage.removeItem('localCart')
+        }
       });
     }
+    setTimeout(() => {
+      let usr = localStorage.getItem('user');
+      let usrId = usr && JSON.parse(usr).id;
+      console.warn(usrId);
+      
+       this.product.getCartList(usrId);
+    }, 2000);
   }
 }

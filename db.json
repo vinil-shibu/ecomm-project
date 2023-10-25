@@ -164,6 +164,102 @@
       "userId": 1,
       "productId": 6,
       "id": 5
+    },
+    {
+      "name": "Razor Laptop",
+      "price": "359000",
+      "category": "Laptop",
+      "color": "Black",
+      "description": "8th Gen Intel i7-8750H 6, NVIDIA RTX 2080, 16GB RAM, 512GB SSD)",
+      "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G451574_View_1/computer-laptop/laptops/razer-rz09-0409ked3-r3u1-intel-core-i7-11800h-15-inches-gaming-laptop-32gb-1tb-ssd-windows-11-classic-black-2-kg-.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 6
+    },
+    {
+      "name": "Iphone 15 Plus",
+      "price": "98999",
+      "category": "Mobiles",
+      "color": "Pink",
+      "description": "Apple iPhone 15 Plus (256 GB) Light pink",
+      "image": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 7
+    },
+    {
+      "name": "Iphone 15 Plus",
+      "price": "98999",
+      "category": "Mobiles",
+      "color": "Pink",
+      "description": "Apple iPhone 15 Plus (256 GB) Light pink",
+      "image": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": null,
+      "id": 8
+    },
+    {
+      "name": "Iphone 15 Plus",
+      "price": "98999",
+      "category": "Mobiles",
+      "color": "Pink",
+      "description": "Apple iPhone 15 Plus (256 GB) Light pink",
+      "image": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 9
+    },
+    {
+      "name": "Nike AIR",
+      "price": "12799",
+      "category": "Shoes",
+      "color": "Gray",
+      "description": "Nike Air Flight Lite Mid | Style: FJ2949-001",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOofT77I5Aph8NzbMGtH-V_5bbYtsZWQNtQ&usqp=CAU",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 4,
+      "id": 10
+    },
+    {
+      "name": "MacBook Pro",
+      "price": "309900",
+      "category": "Laptop",
+      "color": "Gray",
+      "description": "Apple M2 Max with 12‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=2000&hei=1211&fmt=jpeg&qlt=95&.v=1671304673229",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 11
+    },
+    {
+      "name": "MacBook Pro",
+      "price": "309900",
+      "category": "Laptop",
+      "color": "Gray",
+      "description": "Apple M2 Max with 12‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=2000&hei=1211&fmt=jpeg&qlt=95&.v=1671304673229",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 12
+    },
+    {
+      "name": "MacBook Pro",
+      "price": "309900",
+      "category": "Laptop",
+      "color": "Gray",
+      "description": "Apple M2 Max with 12‑core CPU, 30‑core GPU and 16‑core Neural Engine",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp14-spacegray-select-202301?wid=2000&hei=1211&fmt=jpeg&qlt=95&.v=1671304673229",
+      "quantity": 1,
+      "productId": 7,
+      "userId": null,
+      "id": 13
     }
   ]
 }
