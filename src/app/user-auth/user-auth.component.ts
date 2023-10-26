@@ -10,8 +10,8 @@ import { ProductService } from '../services/product.service';
 })
 export class UserAuthComponent implements OnInit {
   showLogin: boolean = true;
-  authError:string=""
-  constructor(private user: UserService, private product:ProductService) {
+  authError: string = ""
+  constructor(private user: UserService, private product: ProductService) {
 
   }
 
@@ -26,11 +26,11 @@ export class UserAuthComponent implements OnInit {
 
   login(data: Login) {
     this.user.userLogin(data);
-    this.user.invalidUserAuth.subscribe((result)=>{
-      if(result){
-        this.authError="Please enter valid user details"
+    this.user.invalidUserAuth.subscribe((result) => {
+      if (result) {
+        this.authError = "Please enter valid user details"
       }
-      else{
+      else {
         this.localCartToRemoteCart();
       }
     })
@@ -44,39 +44,43 @@ export class UserAuthComponent implements OnInit {
     this.showLogin = true;
   }
 
-  localCartToRemoteCart(){
-    let data = localStorage.getItem('localCart'); 
-    let user = localStorage.getItem('user');
-    let userId = user && JSON.parse(user).id;
-    
-    if(data){
-      let cartDataList:product[] = JSON.parse(data);
-      
-      cartDataList.forEach((product:product,index) => {
-        let cartData:cart={
-          ...product,
-          productId:product.id,
-          userId
-        };
-        delete cartData.id;
-        setTimeout(() => {
-          this.product.addToCart(cartData).subscribe((result)=>{
-            if(result){
-              console.warn("Item Added");
-            }
-          });
-        }, 1000);
-        if(cartDataList.length===index+1){
-          localStorage.removeItem('localCart')
-        }
-      });
-    }
+  localCartToRemoteCart() {
     setTimeout(() => {
-      let usr = localStorage.getItem('user');
-      let usrId = usr && JSON.parse(usr).id;
-      console.warn(usrId);
-      
-       this.product.getCartList(usrId);
-    }, 2000);
+
+      let data = localStorage.getItem('localCart');
+      let user = localStorage.getItem('user');
+      let userId = user && JSON.parse(user).id;
+
+      if (data) {
+        let cartDataList: product[] = JSON.parse(data);
+
+        cartDataList.forEach((product: product, index) => {
+          let cartData: cart = {
+            ...product,
+            productId: product.id,
+            userId
+          };
+          delete cartData.id;
+          setTimeout(() => {
+            this.product.addToCart(cartData).subscribe((result) => {
+              if (result) {
+                console.warn("Item Added");
+              }
+            });
+          }, 1000);
+          if (cartDataList.length === index + 1) {
+            localStorage.removeItem('localCart')
+          }
+        });
+      }
+      setTimeout(() => {
+        let usr = localStorage.getItem('user');
+        let usrId = usr && JSON.parse(usr).id;
+        console.warn(usrId);
+
+        this.product.getCartList(usrId);
+      }, 2000);
+    }, 1000);
   }
+
 }
