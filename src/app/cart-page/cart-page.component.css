@@ -52,3 +52,7 @@
 .total{
     border-top:1px solid #ddd;
 }
+
+.max-width{
+    width: 100%;
+}
