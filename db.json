@@ -129,5 +129,15 @@
       "productId": 1,
       "id": 2
     }
+  ],
+  "orders": [
+    {
+      "email": "vinil@gmail.com",
+      "address": "Ujire, belhangadi,DK, Karnataka",
+      "contact": "9741484590",
+      "totalPrice": 277657,
+      "userId": 1,
+      "id": 1
+    }
   ]
 }
