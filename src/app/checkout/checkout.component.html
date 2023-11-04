@@ -4,9 +4,9 @@
         <div class="col-sm-7 shipping-address">
             <h3>Add Shipping Address</h3>
             <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
-                <input type="text" class="form-input" name="email" placeholder="Enter your Email" ngModel>
-                <input type="text" class="form-input" name="address" placeholder="Enter your Address" ngModel>
-                <input type="text" class="form-input" name="contact" placeholder="Enter your Phone No." ngModel>
+                <input type="text" class="form-input" name="email" placeholder="Enter your Email" required ngModel>
+                <input type="text" class="form-input" name="address" placeholder="Enter your Address" required ngModel>
+                <input type="text" class="form-input" name="contact" placeholder="Enter your Phone No." required ngModel>
                 <button class="form-button">Order Now</button>
             </form>
         </div>
