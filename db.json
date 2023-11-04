@@ -104,40 +104,31 @@
       "id": 2
     }
   ],
-  "cart": [
-    {
-      "name": "Pixel 7 Pro",
-      "price": "78999",
-      "category": "Mobiles",
-      "color": "Black",
-      "description": "Google Pixel 7 Pro (Just Black, 128 GB) (12 GB RAM)",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/t/u/m/-original-imaggsuehy3nyj3b.jpeg?q=70",
-      "quantity": 2,
-      "userId": 1,
-      "productId": 2,
-      "id": 1
-    },
-    {
-      "name": "Iphone 15 Plus",
-      "price": "98999",
-      "category": "Mobiles",
-      "color": "Pink",
-      "description": "Apple iPhone 15 Plus (256 GB) Light pink",
-      "image": "https://www.apple.com/newsroom/images/2023/09/apple-debuts-iphone-15-and-iphone-15-plus/article/Apple-iPhone-15-lineup-hero-geo-230912_inline.jpg.large.jpg",
-      "quantity": 1,
-      "userId": 1,
-      "productId": 1,
-      "id": 2
-    }
-  ],
+  "cart": [],
   "orders": [
     {
-      "email": "vinil@gmail.com",
+      "email": "vinilshibu@gmail.com",
       "address": "Ujire, belhangadi,DK, Karnataka",
-      "contact": "9741484590",
+      "contact": "09741484590",
       "totalPrice": 277657,
       "userId": 1,
       "id": 1
+    },
+    {
+      "email": "ankita@gmail.com",
+      "address": "Ujire, India",
+      "contact": "8431676236",
+      "totalPrice": 387820,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "vinil@gmail.com",
+      "address": "Ujire, India",
+      "contact": "9741484590",
+      "totalPrice": 10141,
+      "userId": 1,
+      "id": 3
     }
   ]
 }

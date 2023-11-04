@@ -16,3 +16,7 @@
 .my-orders{
     margin-bottom: 100px;
 }
+
+.order-data .innerDiv{
+    padding: 10px;
+}
