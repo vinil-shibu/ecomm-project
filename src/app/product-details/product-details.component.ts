@@ -12,7 +12,7 @@ export class ProductDetailsComponent implements OnInit {
   productData: undefined | product
   productQuantity: number = 1;
   removeCart = false;
-  cartData:product|undefined;
+  cartData: product | undefined;
   constructor(private activeRoute: ActivatedRoute, private product: ProductService) { }
   ngOnInit(): void {
     let productId = this.activeRoute.snapshot.paramMap.get('productId');
@@ -34,17 +34,17 @@ export class ProductDetailsComponent implements OnInit {
       }
 
       let user = localStorage.getItem('user');
-      if(user){
-          let userId = user && JSON.parse(user).id;
-          this.product.getCartList(userId);
-          this.product.cartData.subscribe((result)=>{
-            let item = result.filter((item:product)=>productId?.toString()===item.productId?.toString())
-            if(item.length){
-              this.cartData=item[0];
-              this.removeCart=true;
-            }
-          });
-        }
+      if (user) {
+        let userId = user && JSON.parse(user).id;
+        this.product.getCartList(userId);
+        this.product.cartData.subscribe((result) => {
+          let item = result.filter((item: product) => productId?.toString() === item.productId?.toString())
+          if (item.length) {
+            this.cartData = item[0];
+            this.removeCart = true;
+          }
+        });
+      }
     });
   }
 
@@ -84,14 +84,15 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   removeToCart(productId: number) {
-    let user = localStorage.getItem('user');
-    let userId = user && JSON.parse(user).id;
-    if (!localStorage.getItem('user')){
+
+    if (!localStorage.getItem('user')) {
       this.product.removeItemFromCart(productId);
     } else {
       console.warn(this.cartData);
-      this.cartData && this.product.removeTocart(this.cartData.id).subscribe((result)=>{
-        if(result){
+      this.cartData && this.product.removeTocart(this.cartData.id).subscribe((result) => {
+        if (result) {
+          let user = localStorage.getItem('user');
+          let userId = user && JSON.parse(user).id;
           this.product.getCartList(userId);
         }
       });
