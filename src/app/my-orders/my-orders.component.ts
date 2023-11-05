@@ -12,9 +12,21 @@ orderData:order[]|undefined;
   constructor(private product:ProductService){}
 
 ngOnInit(): void {
-    this.product.orderList().subscribe((result)=>{
-      console.warn('order API called');
-      this.orderData=result
-    });
+    this.getOrderList();
 }
+
+cancelOrder(orderId:number|undefined){
+  orderId && this.product.cancelOrder(orderId).subscribe((result)=>{
+    console.warn(result);
+    this.getOrderList()
+  });
+}
+
+getOrderList(){
+  this.product.orderList().subscribe((result)=>{
+    console.warn('order API called');
+    this.orderData=result;
+  });
+}
+
 }

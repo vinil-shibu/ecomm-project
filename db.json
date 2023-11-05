@@ -107,14 +107,6 @@
   "cart": [],
   "orders": [
     {
-      "email": "vinilshibu@gmail.com",
-      "address": "Ujire, belhangadi,DK, Karnataka",
-      "contact": "09741484590",
-      "totalPrice": 277657,
-      "userId": 1,
-      "id": 1
-    },
-    {
       "email": "ankita@gmail.com",
       "address": "Ujire, India",
       "contact": "8431676236",
